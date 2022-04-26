@@ -1,4 +1,4 @@
-# Bienvenidos al proyecto de NLP para el análisis de titulares de notícias que pueden contener!
+# Welcome to the NLP project for the clickbait analysis of news headlines!
 
 ## Project description:
 This project tries to analyze the news headlines collected online and that are collected in the dataset clickbait_data.csv extracted from kaggle.com.
