@@ -1,13 +1,13 @@
 # Bienvenidos al proyecto de NLP para el análisis de titulares de notícias que pueden contener!
 
-## Descripción del proyecto:
-Este proyecto trata de analizar los titulares de notícias recogidas online y que se recogen en el dataset clickbait_data.csv extraído de kaggle.com.
-Las notícias de este dataset pueden pertenecer a una de dos categorías, o bien son clickbait o bien no lo son.
-Con tal de ser capaces de predecir y diferenciar qué notícias son o no clickbait hemos implementado 4 modelos: SVM, Naive-Bayes, XGBoost y Spacy(modelo preentrenado).
+## Project description:
+This project tries to analyze the news headlines collected online and that are collected in the dataset clickbait_data.csv extracted from kaggle.com.
+The news in this dataset can fall into one of two categories, either they are clickbait or they are not.
+In order to be able to predict and differentiate what news is or is not clickbait, we have implemented 4 models: SVM, Naive-Bayes, XGBoost and Spacy (pre-trained model).
 
-## Requisitos de ejecución:
-- Disponer del dataset de clickbait que se encuentra en el repositorio: https://raw.githubusercontent.com/josepicon/URL-/main/MD009%20-%20Advanced%20Data%20Analysis%20Tools/Project/clickbait_data.csv
-- Las siguientes librerías, remarcar que la versión de Spacy es 2.X:
+## Execution requirements:
+- Have the clickbait dataset found in the repository: https://raw.githubusercontent.com/josepicon/URL-/main/MD009%20-%20Advanced%20Data%20Analysis%20Tools/Project/clickbait_data.csv
+- The following libraries, note that the Spacy version is 2.X:
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,12 +45,12 @@ from xgboost import XGBClassifier
 from sklearn.cluster import KMeans
 from lightgbm import LGBMClassifier
 
-## Tecnologías usadas:
+## Technologies used:
 - SVM
 - Naive-Bayes
 - XGBoost
 - Spacy
 
-## Información sobre derechos de autor y licencias
-El código para el algoritmo de Spacy se ha recavado de la siguiente página web
+## Copyright and license information
+The code for the Spacy algorithm has been retrieved from the following web page
 https://www.machinelearningplus.com/nlp/custom-text-classification-spacy/
